@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMa5SqbmjdOgfIODcrPQuAK",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jyothi-rao/23CSBTB39-40/blob/main/jyothi_nadipelli.ipynb%20aiml\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "3X1Xk9cJ-ptK",
+        "outputId": "09b0ce9a-bb4b-4bc6-fff0-28283746ab53"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'chinni', 5, 'robot'}\n",
+            "[5 6 7 8 9]\n",
+            "[1 2 3 4 5]\n",
+            "[ 6  8 10 12 14]\n",
+            "[ 5 12 21 32 45]\n",
+            "[    5    36   343  4096 59049]\n",
+            "[5.         3.         2.33333333 2.         1.8       ]\n"
+          ]
+        }
+      ],
+      "source": [
+        "import numpy as np\n",
+        "import pandas as pd\n",
+        "list1={\"chinni\",\"robot\",5}\n",
+        "print(list1)\n",
+        "array1=np.array([5,6,7,8,9])\n",
+        "print(array1)\n",
+        "array2=np.array([1,2,3,4,5])\n",
+        "print(array2)\n",
+        "n=array1+array2\n",
+        "print(n)\n",
+        "f=array1*array2\n",
+        "print(f)\n",
+        "g=array1**array2\n",
+        "print(g)\n",
+        "h=array1/array2\n",
+        "print(h)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from google.colab import drive\n",
+        "drive.mount('/content/drive')"
+      ],
+      "metadata": {
+        "id": "o1k6LpxkJA2m"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
